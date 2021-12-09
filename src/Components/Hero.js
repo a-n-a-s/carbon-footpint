@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   const handleDown = () => {
-    window.scrollTo(0,800);
-  }
+    window.scrollTo(0, 800);
+  };
   return (
     <div>
       <section class="text-gray-600 body-font">
@@ -15,17 +15,16 @@ const Hero = () => {
           />
           <div class="text-center lg:w-2/3 w-full">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Microdosing synth tattooed vexillologist
+              Carbon Footprint
             </h1>
             <p class="mb-8 leading-relaxed">
-              Meggings kinfolk echo park stumptown DIY, kale chips beard
-              jianbing tousled.Chambray dreamcatcher trust fund, kitsch vice
-              godard disrupt ramps hexagon mustache umami snackwave tilde
-              chillwave ugh.Pour-over meditation PBR&B pickled ennui celiac
-              mlkshk freegan photo booth af fingerstache pitchfork.
+            A carbon footprint is the total greenhouse gas (GHG) emissions caused by an individual, event, organization, service, place or product, expressed as carbon dioxide equivalent (CO2e). Greenhouse gases, including the carbon-containing gases carbon dioxide and methane, can be emitted through the burning of fossil fuels, land clearance and the production and consumption of food, manufactured goods, materials, wood, roads, buildings, transportation and other services.
             </p>
             <div class="flex justify-center">
-              <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6  focus:outline-none hover:bg-green-600 rounded text-xl" onClick={handleDown}>
+              <button
+                class="inline-flex text-white bg-green-500 border-0 py-2 px-6  focus:outline-none hover:bg-green-600 rounded text-xl"
+                onClick={handleDown}
+              >
                 Start
               </button>
             </div>
